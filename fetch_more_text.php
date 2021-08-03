@@ -8,7 +8,7 @@
   $view_more="";
  if (strlen($row['text']) >= 150) 
   {
-   $view_more="\r\n<strong class='more' id='".$row['id']."' style='cursor:pointer;'>more view</strong>"; 
+   $view_more="\r\n<strong class='more' id='".$row['id']."' style='cursor:pointer;'>read more</strong>"; 
   }
   if(isset($_POST['id'])) 
   {
