@@ -6,7 +6,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
  <body>
- <div id="good" class="container center-text">
+ <div id="text" class="container center-text">
 
  </div>
  </body>
@@ -39,7 +39,7 @@
             data:{plus__:plus__,id:id},
             success:function(data)
             {
-              $("#good").html(data);
+              $("#text").html(data);
             }
          });
       }
