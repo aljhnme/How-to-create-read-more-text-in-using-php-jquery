@@ -10,7 +10,7 @@
   {
    $view_more="\r\n<strong class='more' id='".$row['id']."' style='cursor:pointer;'>read more</strong>"; 
   }
-  if(isset($_POST['id'])) 
+  if(isset($_POST['plus__'])) 
   {
     if ($row['id'] == $_POST['id']) 
     {
@@ -20,7 +20,7 @@
       {
        $view_more="";
       }
-
+     
     }else{
       $plus__=150;
     }
